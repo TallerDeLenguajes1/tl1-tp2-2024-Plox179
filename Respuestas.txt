@@ -1,0 +1,2 @@
+2f) No, no puedo ver el archivo tp2_1_1.c ya que cada rama en Git representa una linea de desarrollo independiente.
+Los archivos especificos de una rama no se propagan a otra hasta que no se haga un merge y se fusionen ambas ramas.
