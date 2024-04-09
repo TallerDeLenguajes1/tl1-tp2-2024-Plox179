@@ -8,12 +8,16 @@ int main(){
 
     int i;
     int vt[N];
+    int *pVT= vt;
+
     srand(time(NULL));
-    for ( i = 0; i < N; i++)
+
+    for ( i = 0; i < N; i++, pVT++)
     {
-        vt[i]=1+rand()%100;
-        printf("Numero %d: %d\n", i, vt[i]);
+        *pVT=1+rand()%100;
+        printf("Numero %d: %d\n", i, *pVT);
     }
     
+
     return 0;
 }
