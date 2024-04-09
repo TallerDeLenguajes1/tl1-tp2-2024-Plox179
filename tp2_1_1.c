@@ -8,12 +8,12 @@ int main(){
 
     int i;
     int vt[N];
+    srand(time(NULL));
     for ( i = 0; i < N; i++)
     {
         vt[i]=1+rand()%100;
         printf("Numero %d: %d\n", i, vt[i]);
     }
     
-
     return 0;
 }
