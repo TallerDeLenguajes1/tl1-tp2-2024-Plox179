@@ -1,2 +1,5 @@
 2f) No, no puedo ver el archivo tp2_1_1.c ya que cada rama en Git representa una linea de desarrollo independiente.
 Los archivos especificos de una rama no se propagan a otra hasta que no se haga un merge y se fusionen ambas ramas.
+
+Cuando hago el Merge noto en la interfaz grafica de usuario de Git Bash que ahora la rama main y la Opcion_2 estan conectadas y antes
+crecian en paralelo y no habia una linea que las conecte.
